@@ -23,8 +23,9 @@ h1 {
 }
 
 .quote-box {
-  min-height: 120px;
-  margin-bottom: 20px;
+  margin-top: 50px;
+  min-height: 30px;
+  margin-bottom: 50px;
 }
 
 #quote {
