@@ -1,7 +1,10 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #121212;
+  background: url("assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   color: white;
   height: 100vh;
   display: flex;
@@ -23,6 +26,11 @@ h1 {
 }
 
 .quote-box {
+  /* background: rgba(255,255,255,0.9) ;
+  backdrop-filter: blur(10px);
+  border-radius: 16px; */
+  /* padding: 40px; */
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
   margin-top: 50px;
   min-height: 30px;
   margin-bottom: 50px;
